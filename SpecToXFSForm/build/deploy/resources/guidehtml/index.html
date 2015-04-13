@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Freelancer - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#page-top">Help Guide</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#loadingimage">1. Loading Image</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#gridcrop">2. Grid/Crop</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#definefields">3. Define Fields</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#convert">4. Convert to XFS Form</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Start Converting</span>
+                        <hr class="star-light">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="loadingimage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>1. Loading the Image</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                       1. Open up the receipt specs (.pdf) and find the page with the receipt you want to convert. 
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                       2. Zoom in about 200% (doesn't need to be exact). The bigger the image of the receipt, the better. <br><br><br><br>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                       3. Take a screenshot and crop a region around the receipt image (or use the snipping tool with "alt + s"). <br><br><br><br>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                      <br><br><br><br>4.  Make sure you have the full receipt image cropped out - including its borders but no other text or black pixels outside it! <br><br><br><br>
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        Click to zoom in!
+                        <img src="img/portfolio/howtocrop.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        End result should look like this:
+                      <img src="img/portfolio/endresult.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="gridcrop">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>2. Gridding The Image</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>One you have your cropped image, you just need to load it into the app by going to File -> Open..</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Assuming the image has been cropped correctly and doesn't contain any funky black pixels outside of the receipt image's border, click "Crop/Grid" and it should crop and grid it for you!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                	<br>
+                	<img src="img/portfolio/GridExample.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="definefields">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>3. Defining Fields</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <p>Now just hit the "Define Fields" button and the GUI editor should open with your newly gridded image. To define a field just click on the starting point followed by the end point.
+            <br><br>Once two red dots have been placed a pop up window will appear asking you to define the field name (mandatory), whether you want it to have
+            an initial default value (labels/static fields need this) and its justification (receipt specs should tell you if they have to be centered or not).
+            <br><br>Once your done hit "Save", or if you want that current GUI session to be cleared just hit "Clear Changes".
+            </p>
+   			<center><img src="img/portfolio/DefineFieldsExample.png"><\center>
+   			<br><br>
+   			<p>Thats it! Just hit "Convert to XFS" and it will save your XFS form under the location posted to the Console.</p>
+        </div>
+    </section>
+	
+    <!-- Convert Section -->
+       <section id="convert" class="success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>4. Convert To XFS Form</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+   			<p>Thats it! Just hit "Convert to XFS" and it will save your XFS form under the location posted to the Console.</p>
+   			<br>
+   			<center><img src="img/portfolio/Convert.png"><\center>
+   			<br><br>
+   			<p>
+   			It's worth noting there is a "XFSFormSettings.xml" file which can be found under <Install Directory>\app\resources\
+ 			<br><br>
+ 			Here you can edit things such as whether you want the receipt to use ROWCOLUMNS or MM, ROWCOLUMN-X and ROWCOLUMN-Y modifiers, Font and CPI (Characters Per Inch aka Font Size). The default should be suitable for the RBS project as of 07/04/2015. 
+      		<br><br>
+      		<center><img src="img/portfolio/Settings.png"></center>
+      		</p>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Opening up the specs</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/howtocrop.png" class="img-responsive img-centered" alt="">
+							<p>Find your image and zoom in as much as you can so that the image still fits on your screen.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>End Result Example</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/endresult.png" class="img-responsive img-centered" alt="">
+                            <p>Make sure you just have the receipt image and its border - no text or any other dark pixels outside of the borders!</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
+</html>

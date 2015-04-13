@@ -1,0 +1,16 @@
+XFSFORM        "XFSForm"
+BEGIN
+    UNIT			MM,4,1
+    SIZE           280,84
+    VERSION         0, 0, "", ""
+    LANGUAGE	     0000
+
+    XFSFIELD        "Label"
+    BEGIN
+        POSITION       0,4
+        SIZE           112,4
+        OVERFLOW       TRUNCATE
+        FONT           "Consolas"
+        CPI            14
+    END
+END
